@@ -1,33 +1,26 @@
 # GameVault (Frontend)
 
-Demo React + Tailwind for GameVault.
+Frontend for GameVault built with React, Vite and Tailwind CSS.
 
-## Quickstart (dev)
-1. `npm install`
-2. `npm run dev`
-3. Open `http://localhost:5173`
+## Development
+`npm install`
+`npm run dev`
 
-## Build & Deploy (GitHub Pages)
-1. Set `vite.config.js` `base` to `/REPO_NAME/` (see below).
-2. `npm run build`
-3. `npm install --save-dev gh-pages`
-4. Add scripts:
-   - `"predeploy": "npm run build"`
-   - `"deploy": "gh-pages -d dist"`
-5. `npm run deploy` (deploys `dist` to `gh-pages` branch)
+## Build
+`npm run build`
+
+## Deployment (GitHub Pages)
+Build output in dist/ is deployed to the gh-pages branch (using gh-pages).
 
 ## Features
-- CRUD games (with backend)
-- Filters, search, pagination
-- Add / Edit inline + modal add
-- Tailwind styling
+- CRUD games (REST API)
+- Filters, search and pagination
+- Inline edit + modal creation
+- Tailwind UI
 
 ## Notes
 - Backend: see `gamevault-server` repo (Express + SQLite).
 
 ## Demo
 
-<video controls loop muted width="720">
-  <source src="./docs/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Demo](https://github.com/Martensq/game-vault/blob/main/docs/demo.gif?raw=true)
