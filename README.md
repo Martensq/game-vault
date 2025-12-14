@@ -30,6 +30,8 @@ Create a production build:
 
 ## Deployment (GitHub Pages)
 
+`npm run deploy`
+
 The production build (`dist/`) is deployed to the `gh-pages` branch using **gh-pages**.
 
 ## Features
