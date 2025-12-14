@@ -4,8 +4,6 @@ Frontend application for **GameVault**, built with **React**, **Vite** and **Tai
 
 The app allows authenticated users to manage their personal video game collection.
 
----
-
 ## Tech Stack
 
 - React
@@ -14,33 +12,25 @@ The app allows authenticated users to manage their personal video game collectio
 - React Router
 - Fetch API
 
----
-
 ## Development
 
 Install dependencies:
 
-npm install
+`npm install`
 
 Start the development server:
 
-npm run dev
-
----
+`npm run dev`
 
 ## Build
 
 Create a production build:
 
-npm run build
-
----
+`npm run build`
 
 ## Deployment (GitHub Pages)
 
 The production build (`dist/`) is deployed to the `gh-pages` branch using **gh-pages**.
-
----
 
 ## Features
 
@@ -53,15 +43,11 @@ The production build (`dist/`) is deployed to the `gh-pages` branch using **gh-p
 - Modal creation and inline editing
 - Responsive UI with Tailwind CSS
 
----
-
 ## Notes
 
 - Backend repository: `gamevault-backend` (Node.js, Express, Prisma, PostgreSQL)
 - The frontend requires the backend API to be running
 - Authentication token is stored client-side and attached to API requests
-
----
 
 ## Demo
 
