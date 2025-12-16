@@ -240,7 +240,7 @@ function GameVault() {
                 setPlatformFilter(e.target.value);
                 setPage(1);
               }}
-              className="bg-slate-800 border border-slate-700 rounded px-2 py-1 me-2 text-sm"
+              className="bg-slate-800 border border-slate-700 rounded px-2 py-1 me-2 text-sm mb-2 md:mb-0"
             >
               <option value="all">Toutes</option>
               <option value="PS5">PS5</option>
