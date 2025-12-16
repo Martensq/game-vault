@@ -242,7 +242,7 @@ function GameVault() {
               }}
               className="bg-slate-800 border border-slate-700 rounded px-2 py-1 me-2 text-sm"
             >
-              <option value="all">Toutes les plateformes</option>
+              <option value="all">Toutes</option>
               <option value="PS5">PS5</option>
               <option value="PC">PC</option>
               <option value="Switch">Switch</option>
